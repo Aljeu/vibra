@@ -144,7 +144,10 @@ function Sculpture({ engineRef, intensity, reducedMotion, rotationRef, softness,
       u.uSnareDirection.value = motion.snareDirection;
       u.uShell.value = motion.formMix;
     }
-    const fit = Math.min(1, state.viewport.width / 3.35, state.viewport.height / 3.45);
+    // The studio stage is shorter than the homepage canvas because it reserves
+    // room for the header and player. Let the sculpture fill more of that stage
+    // so its visual weight carries naturally across the route transition.
+    const fit = Math.min(1.14, state.viewport.width / 3, state.viewport.height / 3);
     group.scale.set(
       fit * (1 + body * 0.04 + kickPulse * 0.045 + rhythmPulse * 0.02),
       fit * (1 + body * 0.022 - kickPulse * 0.038 - rhythmPulse * 0.025),
