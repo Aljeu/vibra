@@ -1,0 +1,28 @@
+# Dependencies
+/node_modules/
+/.pnp
+.pnp.*
+
+# Next.js output
+/.next/
+/out/
+/build/
+/coverage/
+
+# Local environment files (there are no required environment variables today)
+.env*
+!.env.example
+
+# Generated TypeScript / tool output
+*.tsbuildinfo
+next-env.d.ts
+
+# Operating system / editor noise
+.DS_Store
+Thumbs.db
+
+# Superseded visual concept mockups (kept locally; current app screenshots live in docs/screenshots)
+/mockups/
+
+# Local-only design history and archived experiments
+/versions/
