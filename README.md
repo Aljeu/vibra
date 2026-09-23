@@ -4,6 +4,8 @@
 
 Vibra is an audio-visual instrument: bring a track, and watch its rhythm become a living sculptural form. It pairs a quiet, editorial gallery with an expressive real-time Three.js artwork—built to be experienced, not merely glanced at as a waveform.
 
+**[Open the live experience ↗](https://vibra-seven-opal.vercel.app/)**
+
 The visual language is deliberately restrained: a deep plum stage, luminous pearl-like matter, considered typography, and space around the work. The experience moves from stillness to flow to impact, then returns to a calm closing cover. Every motion has a relationship to the music; the sculpture should feel like it is listening, not firing at every sound.
 
 ## The experience
@@ -100,7 +102,7 @@ The audio test uses Node's built-in TypeScript stripping, hence the Node 22.6+ r
 
 ## Deployment
 
-Vibra is deployed on Vercel from the `main` branch of [Aljeu/vibra](https://github.com/Aljeu/vibra). Vercel builds the app with Next.js and creates production deployments for changes merged or pushed to `main`.
+Vibra is deployed on [Vercel](https://vibra-seven-opal.vercel.app/) from the `main` branch of [Aljeu/vibra](https://github.com/Aljeu/vibra). Vercel builds the app with Next.js and creates production deployments for changes merged or pushed to `main`.
 
 ## Performance and accessibility
 
