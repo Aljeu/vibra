@@ -8,6 +8,7 @@
 /out/
 /build/
 /coverage/
+/.vercel/
 
 # Local environment files (there are no required environment variables today)
 .env*

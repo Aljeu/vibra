@@ -3,9 +3,9 @@
   --ink: #eee8ef;
   --subtle: #b0a4b8;
   --line: rgba(234, 223, 238, .23);
-  position: relative;
-  height: 100svh;
-  min-height: 580px;
+  position: fixed;
+  inset: 0;
+  min-height: 0;
   overflow: hidden;
   isolation: isolate;
   background: var(--plum);
@@ -240,7 +240,6 @@
 .dropOverlay span { font-family: 'SFMono-Regular', monospace; color: var(--subtle); font-size: 12px; letter-spacing: .08em; }
 @keyframes arrive { from { opacity: 0; } to { opacity: 1; } }
 @media (max-width: 700px) {
-  .experience { min-height: 570px; }
   .header { top: max(15px, env(safe-area-inset-top)); right: 22px; left: 22px; }
   .wordmark { font-size: 22px; }
   .headerActions { gap: 12px; }
@@ -265,7 +264,6 @@
   .focusTransport { right: 22px; bottom: max(18px, env(safe-area-inset-bottom)); left: 22px; }
 }
 @media (max-height: 680px) and (min-width: 701px) {
-  .experience { min-height: 480px; }
   .header { top: 12px; }
   .showcaseTitle h1 { font-size: min(10vw, 22vh); }
   .quietTitle h1 { font-size: 40px; }

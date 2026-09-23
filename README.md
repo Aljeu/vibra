@@ -98,6 +98,10 @@ npm run build
 
 The audio test uses Node's built-in TypeScript stripping, hence the Node 22.6+ requirement.
 
+## Deployment
+
+Vibra is deployed on Vercel from the `main` branch of [Aljeu/vibra](https://github.com/Aljeu/vibra). Vercel builds the app with Next.js and creates production deployments for changes merged or pushed to `main`.
+
 ## Performance and accessibility
 
 - Audio analysis is sampled once per visual frame and the scene uses reusable buffers rather than per-frame React state.
